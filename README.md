@@ -1,89 +1,90 @@
 <p align="center"><img src="assets/banner.jpg" alt="AION2 Status" width="820"></p>
 
 <p align="center">
-<b>Русский</b> · <a href="README.en.md">English</a>
+<b>English</b> · <a href="README.ru.md">Русский</a>
 </p>
 
-# AION2 Status — плагин для AION 2
+# AION2 Status — overlay plugin for AION 2
 
-Статус серверов, таймеры боссов и интерактивная карта **поверх игры**. Бесплатно, без установки, Windows 10/11.
+Server status, boss timers and an interactive map **on top of the game**. Free, no installer, Windows 10/11.
 
-**[⬇ Скачать последнюю версию](../../releases/latest)** · [Сайт](https://aion2status.com) · [Telegram-бот](https://t.me/Aion2Status_Bot)
+**[⬇ Download the latest version](../../releases/latest)** · [Website](https://aion2status.com/en/) · [Telegram bot](https://t.me/Aion2Status_Bot)
 
 <p align="center">
-<img src="assets/panel.webp" alt="Панель поверх игры" height="300">
-<img src="assets/mini.webp" alt="Мини-режим" height="300">
+<img src="assets/panel-en.webp" alt="Overlay panel" height="300">
+<img src="assets/mini-en.webp" alt="Mini mode" height="300">
 </p>
 
-## Что умеет
+## Features
 
-**Бесплатно**
-- **Статус твоего сервера** — техработы, запуск, «открылся»; пинг от твоего ПК до сервера и обратно, онлайн игры в Steam.
-- **Таймеры** — полевые боссы по живой ленте игроков, разломы, вторжения, Кайра и Нахма, ежечасные события, сроки ивентов.
-- **Напоминания** — звук и карточка за N минут и за 30 секунд до начала.
-- **Карта при наведении** — где босс, ближайший телепорт и маршрут от него; Бездна для обеих фракций.
-- **«В чат»** — строка вида «Лагта через 12 мин, тп №57» копируется, вставляешь в чат игры сам.
-- **Три режима** — полная панель, компактная поверх игры, мини-режим «одна кнопка».
+**Free**
+- **Your server's status** — maintenance, starting up, open; ping from your PC to the server and back, AION 2 players online on Steam.
+- **Timers** — field bosses from a live player feed, rifts, invasions, Kaira and Nahma, hourly events, event deadlines.
+- **Reminders** — sound and a card N minutes and 30 seconds before the start.
+- **Map on hover** — where the boss is, the nearest teleport and the route from it; the Abyss for both factions.
+- **To chat** — copies a line like "Lagta in 12 min, TP #57"; you paste it into the game chat yourself.
+- **Modes** — main window, compact in-game panel, single button; the top bar is Premium.
 
-**Премиум · 100 ⭐ за полгода**
-- **Полоса сверху** — ближайший босс крупно над игрой, мигает в последние 30 секунд.
-- **Поиск по карте** на русском и английском — боссы, телепорты, сбор, кубы, следы.
-- **Свои метки** с иконками, слои карты.
+**Premium · 150 ⭐ (Telegram Stars) for 6 months** — or on [FunPay](https://funpay.com/lots/offer?id=79758695)
+- **Top bar** — the next boss in large type above the game, blinking in the last 30 seconds.
+- **Map search** in English and Russian — bosses, teleports, gathering, cubes, traces.
+- **Custom marks** with icons, map layers.
 
-Ключ — в [Telegram-боте](https://t.me/Aion2Status_Bot), приходит сразу и привязан к компьютеру.
+Get a key in the [Telegram bot](https://t.me/Aion2Status_Bot): it arrives instantly and is bound to your PC.
 
-<p align="center"><img src="assets/map.webp" alt="Карта AION 2" width="820"></p>
+<p align="center"><img src="assets/map-en.webp" alt="AION 2 map" width="820"></p>
 
-## Безопасность
+## Safety
 
-Коротко: **плагин — обычное окно поверх игры.** Он не трогает процесс и файлы игры, не читает её память,
-ничего не нажимает за тебя и не ставит хуков клавиатуры. Права администратора не нужны.
+In short: **the plugin is a normal window drawn over the game.** It never touches the game process or files,
+never reads game memory, never presses anything for you and installs no keyboard hooks. No admin rights.
 
-| Плагин делает | Плагин **не** делает |
+| The plugin does | The plugin does **not** |
 |---|---|
-| Рисует своё окно поверх игры (стиль «не забирать фокус») | Не внедряется в процесс AION2, не читает и не пишет его память |
-| Читает последнюю строку журнала игры `*.breadcrumb.log` — понять, в мире ли ты | Не меняет файлы игры и не трогает NCGuard |
-| Смотрит `netstat` — к какому серверу подключена игра | Не отправляет нажатия клавиш и мыши в игру (нет SendInput, макросов) |
-| Делает пустое TCP-подключение к серверу игры раз в 6–30 с | Не ставит глобальных хуков клавиатуры и мыши |
-| Скачивает публичные ленты: Steam, plaync, shugo.gg, aion2timers | Не собирает телеметрию, не шлёт данные о тебе |
+| Draws its own window over the game (no-activate style) | Inject into AION2, read or write its memory |
+| Reads the last line of the game's `*.breadcrumb.log` to see if you are in the world | Modify game files or touch NCGuard |
+| Runs `netstat` to see which server the game is connected to | Send keys or clicks to the game (no SendInput, no macros) |
+| Opens one empty TCP connection to the game server every 6–30 s | Install global keyboard or mouse hooks |
+| Downloads public feeds: Steam, plaync, shugo.gg, aion2timers | Collect telemetry or send any data about you |
 
-Подробно: **[SECURITY.md](SECURITY.md)** · все адреса и частота запросов — **[docs/network.md](docs/network.md)** ·
-что и где хранится — **[docs/files.md](docs/files.md)** · как проверить файл — **[docs/verify.md](docs/verify.md)**.
+Details: **[SECURITY.md](SECURITY.md)** · every address and how often — **[docs/network.md](docs/network.md)** ·
+what is stored where — **[docs/files.md](docs/files.md)** · how to check the file — **[docs/verify.md](docs/verify.md)**.
 
-## Открытый код
+## Open code
 
-Здесь лежит **часть исходного кода** — ровно то, по чему видно, что плагин делает с сетью, игрой и компьютером:
+This repository holds **part of the source code** — exactly the parts that show what the plugin does with the
+network, the game and your PC:
 
-| Файл | Что внутри |
+| File | What's inside |
 |---|---|
-| [src/Network.cs](src/Network.cs) | Пробы серверов (одно пустое TCP-подключение) и HTTP-запросы к лентам |
-| [src/Ping.cs](src/Ping.cs) | Пинг: ICMP, а за VPN с TUN — время ответа HTTP через туннель |
-| [src/GameDetect.cs](src/GameDetect.cs) | Как плагин узнаёт твой сервер: `netstat` + журнал игры (только чтение) |
-| [src/FocusGuard.cs](src/FocusGuard.cs) | Почему игра не теряет клавиатуру; журнал смены фокуса |
-| [src/OverlayWindow.cs](src/OverlayWindow.cs) | Стили окна: не активируется по клику, пропускает мышь в закреплённом виде |
-| [src/DeviceCode.cs](src/DeviceCode.cs) | Код устройства для ключа (хэш, не сам MachineGuid) |
-| [src/Update.cs](src/Update.cs) | Обновления: подпись и SHA-256 проверяются до установки, только https и разрешённые адреса |
-| [src/Hotkeys.cs](src/Hotkeys.cs) | Горячие клавиши через RegisterHotKey — без хуков клавиатуры |
-| [src/app.manifest](src/app.manifest) | `asInvoker` — без прав администратора |
+| [src/Network.cs](src/Network.cs) | Server probes (one empty TCP connect) and HTTP requests to public feeds |
+| [src/Ping.cs](src/Ping.cs) | Ping: ICMP, or HTTP round-trip through the tunnel behind a TUN VPN |
+| [src/GameDetect.cs](src/GameDetect.cs) | How the plugin learns your server: `netstat` + game log (read-only) |
+| [src/FocusGuard.cs](src/FocusGuard.cs) | Why the game never loses the keyboard; focus change log |
+| [src/OverlayWindow.cs](src/OverlayWindow.cs) | Window styles: no activation on click, click-through when pinned |
+| [src/DeviceCode.cs](src/DeviceCode.cs) | Device code for the key (a hash, not the MachineGuid itself) |
+| [src/Update.cs](src/Update.cs) | Updates: signature and SHA-256 checked before install, https and allowed hosts only |
+| [src/Hotkeys.cs](src/Hotkeys.cs) | Hotkeys via RegisterHotKey — no keyboard hooks |
+| [src/app.manifest](src/app.manifest) | `asInvoker` — no admin rights |
 
-Весь остальной код (интерфейс, карта, расписание, ключи) закрыт, чтобы плагин не скопировали и не выпустили
-под чужим именем. Выдержки обновляются с каждым релизом. Лицензия — [LICENSE](LICENSE): смотреть и проверять можно,
-копировать и распространять нельзя.
+The rest (UI, map, schedule, keys) stays closed so nobody re-publishes the plugin under another name.
+Excerpts are refreshed with every release. License: [LICENSE](LICENSE) — you may read and audit, not copy or redistribute.
 
-## Установка
+## Install
 
-1. Скачай `AION2-Status.zip` из [Releases](../../releases/latest) и распакуй в любую папку.
-2. Запусти `AION2-Status.exe`. Если Windows покажет синее окно — «Подробнее» → «Выполнить в любом случае».
-3. Выбери фракцию. В игре поставь режим экрана «Оконный без рамки».
+1. Download `AION2-Status.zip` from [Releases](../../releases/latest) and unzip it anywhere.
+2. Run `AION2-Status.exe`. If Windows shows a blue SmartScreen window — "More info" → "Run anyway".
+3. Pick your faction. In the game, set the display mode to "Borderless windowed".
 
-Короткий гайд — в архиве (`Как пользоваться.txt` / `How to use.txt`).
+The interface follows your Windows language (English / Russian); switch it in ⚙ → «Язык / Language».
+A short guide is inside the zip (`How to use.txt`).
 
-## Вопросы и ошибки
+## Questions and bugs
 
-- Ошибка или идея — [Issues](../../issues).
-- Уязвимость — не в Issues, а лично: см. [SECURITY.md](SECURITY.md).
-- Поддержка и Премиум — [@Aion2Status_Bot](https://t.me/Aion2Status_Bot).
+- Bug or idea — [Issues](../../issues).
+- Vulnerability — not in Issues, privately: see [SECURITY.md](SECURITY.md).
+- Support and Premium — [@Aion2Status_Bot](https://t.me/Aion2Status_Bot).
 
 ---
 
-<sub>AION2 Status — фанатский проект, не связан с NCSOFT. AION — товарный знак NCSOFT Corporation.</sub>
+<sub>AION2 Status is a fan project, not affiliated with NCSOFT. AION is a trademark of NCSOFT Corporation.</sub>

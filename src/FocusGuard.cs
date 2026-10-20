@@ -1,4 +1,4 @@
-// AION2 Status — открытая выдержка из src/Compact.cs (2026-10-17)
+// AION2 Status — открытая выдержка из src/Compact.cs (2026-10-20)
 // Source-available excerpt for security review. Full source is closed. See ../LICENSE.
 //
 // Фокус игры: окна плагина не забирают клавиатуру; после меню передний план возвращается игре.

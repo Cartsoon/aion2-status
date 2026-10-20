@@ -1,4 +1,4 @@
-// AION2 Status — открытая выдержка из src/Aion2Status.cs (2026-10-17)
+// AION2 Status — открытая выдержка из src/Aion2Status.cs (2026-10-20)
 // Source-available excerpt for security review. Full source is closed. See ../LICENSE.
 //
 // Все сетевые подключения к игровым серверам: одно пустое TCP-подключение без данных (порт 13328/13700),
