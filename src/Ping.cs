@@ -1,4 +1,4 @@
-// AION2 Status — открытая выдержка из src/Aion2Status.cs (2026-10-20)
+// AION2 Status — открытая выдержка из src/Aion2Status.cs (2026-10-21)
 // Source-available excerpt for security review. Full source is closed. See ../LICENSE.
 //
 // Пинг: ICMP к твоему серверу, а если VPN отвечает на ICMP сам — время ответа HTTP через туннель к cloudflare.com.

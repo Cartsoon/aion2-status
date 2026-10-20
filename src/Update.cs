@@ -1,4 +1,4 @@
-// AION2 Status — открытая выдержка из src/Update.cs (2026-10-20)
+// AION2 Status — открытая выдержка из src/Update.cs (2026-10-21)
 // Source-available excerpt for security review. Full source is closed. See ../LICENSE.
 //
 // Обновления: файл обновления подписан нашим ключом (ECDSA P-256), подпись и SHA-256 проверяются ДО записи exe,

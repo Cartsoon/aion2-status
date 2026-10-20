@@ -1,4 +1,4 @@
-// AION2 Status — открытая выдержка из src/Aion2Status.cs (2026-10-20)
+// AION2 Status — открытая выдержка из src/Aion2Status.cs (2026-10-21)
 // Source-available excerpt for security review. Full source is closed. See ../LICENSE.
 //
 // Как плагин узнаёт твой сервер: список TCP-подключений процесса AION2 (netstat) и последняя строка
