@@ -24,10 +24,10 @@ reminders, server status and ping — all drawn on top of the game window.
 
 ## 6 styles — the whole addon in one look
 
-<p align="center"><img src="assets/styles.webp" alt="AION 2 overlay styles: Elyos, Asmodians, Sakura, Anime, Ethereal, Aion, Classic — top bar, panel, map, DPS meter and Micro" width="900"></p>
+<p align="center"><img src="assets/styles.webp" alt="AION 2 overlay styles: Elyos, Asmodians, Sakura, Anime, Ethereal, Classic — top bar, panel, map and Micro" width="900"></p>
 
 **Classic**, **Ethereal**, **Anime**, **Elyos**, **Asmodians** and **Sakura**. One choice changes everything over the
-game: the top bar, in-game panel, map window, DPS meter and the Micro button. Pick a style on the first launch, later in
+game: the top bar, in-game panel, map window and the Micro button. Pick a style on the first launch, later in
 ⚙ Settings → Style. **Abyss** rows (Kaira, Nahma, siege bosses, Argo) get their own crimson-violet background.
 
 ## Kittens and a little fox tell you when your boss is up
@@ -38,14 +38,6 @@ When a boss you follow with the 🔔 is about to spawn, the style's mascot slide
 "Argo in 5 min · 15:30" — then hides again: a white kitten with a crown, a cream one with a halo, a black one with a
 crescent and a little fox with a sakura flower. No big pop-ups over the game.
 
-## A DPS meter without packets or drivers
-
-<p align="center"><img src="assets/dps.webp" alt="AION 2 DPS meter without Npcap: dungeon timer and records in one line" width="300"></p>
-
-One slim line over the game. **Dungeon times and records** come from the log the game itself writes to disk: enter a
-dungeon and the timer starts, after the clear — your time and a "record!" badge. The run journal for today and this week
-is in Settings. The line is pinned (clicks pass through); the pin on the right unpins it so you can drag it. No packets,
-no game memory, no Npcap, drivers or admin rights, and other players' damage logs are never collected.
 
 ## Top bar — the next boss above the game
 
@@ -69,7 +61,6 @@ from it, for both factions and the Abyss. Click — the big map with filters, se
 - **Map on hover** — where the boss is, the nearest teleport and the route from it; the Abyss for both factions.
 - **To chat** — copies a line like "Lagta in 12 min, TP #57"; you paste it into the game chat yourself.
 - **Modes** — main window, compact in-game panel, a single button; 6 styles.
-- **DPS meter** — dungeon timer, records and a run journal.
 
 **Premium** — **from 1 day to 12 months**: [FunPay](https://funpay.com/lots/offer?id=79758695) (activation code arrives
 instantly) or 150 ⭐ in the [Telegram bot](https://t.me/Aion2Status_Bot)
@@ -131,7 +122,7 @@ no packet sniffing, no keys or clicks sent to the game — see [Safety](#safety)
 
 **Which servers and languages?** AION 2 Global / EU (Steam), both factions. Interface in English and Russian.
 
-**Is it free?** Yes: timers, reminders, server status, the map on hover, chat lines and the DPS meter.
+**Is it free?** Yes: timers, reminders, server status, the map on hover and chat lines.
 Premium adds the top bar, map search, custom marks and extra map layers.
 
 **How do I activate a FunPay code?** ⚙ Settings → Premium → "Enter code or key…", paste `A2-XXXX-XXXX-XXXX`.
