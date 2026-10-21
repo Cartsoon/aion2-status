@@ -1,4 +1,4 @@
-// AION2 Status — открытая выдержка из src/License.cs (2026-10-21)
+// AION2 Status — открытая выдержка из src/License.cs (2026-10-22)
 // Source-available excerpt for security review. Full source is closed. See ../LICENSE.
 //
 // Код устройства для ключа Премиума: 8 байт SHA-256 от MachineGuid — сам GUID никто не видит.
