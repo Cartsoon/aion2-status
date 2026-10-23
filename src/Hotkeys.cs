@@ -1,4 +1,4 @@
-// AION2 Status — открытая выдержка из src/Hotkeys.cs (2026-10-22)
+// AION2 Status — открытая выдержка из src/Hotkeys.cs (2026-10-23)
 // Source-available excerpt for security review. Full source is closed. See ../LICENSE.
 //
 // Горячие клавиши: RegisterHotKey — Windows сообщает плагину только о назначенных сочетаниях.
