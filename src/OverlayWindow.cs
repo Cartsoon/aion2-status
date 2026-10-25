@@ -1,4 +1,4 @@
-// AION2 Status — открытая выдержка из src/Compact.cs (2026-10-23)
+// AION2 Status — открытая выдержка из src/Compact.cs (2026-10-25)
 // Source-available excerpt for security review. Full source is closed. See ../LICENSE.
 //
 // Окно поверх игры: WS_EX_NOACTIVATE + MA_NOACTIVATE (клик не отнимает фокус), WS_EX_TRANSPARENT при закреплении.
